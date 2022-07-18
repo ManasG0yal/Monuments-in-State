@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 34rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+        .map{
+            margin-right:10px ;
+            
+        }
+        @media screen and (min-width:49rem) {
+            h1{
+                /* background-color: red; */
+                width: 20em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Karnataka </h1>
+    <div class="info">
+        <div class="map" ><img src="karmap.png" style="height : 21rem;"></div>
+        <div class="state">
+          <code>  Karnataka is a state in the southwestern region of India. It was formed on 1 November 1956, with the passage of the States Reorganisation Act. Originally known as the State of Mysore  it was renamed Karnataka in 1973.</code> The state corresponds to the Carnatic region. Its capital and largest city is Bangalore.
+
+        </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Karnataka</h2>
+        <ul class="list">
+            <li><a href="#1">Group Hampi</a></li>
+            <li><a href="#2"> Chennakeshavasvami Temple</a></li>
+            <li><a href="#3">Pratap Fort</a></li>
+            <li><a href="#4"> Statue of Gomateshwara,</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="hampi.jpeg" style="height: 20rem; width: 27rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1.Group  Hampi </center>  
+                </div>
+                <div class="ptext">
+                 <code>   The epitome of the glorious architecture of the Vijayanagara Empire, The Group of Monuments at Hampi are listed among UNESCO World Heritage Sites in India.</code> Nestled along the Tungabhadra River, Hampi comprises ruins that reveal incredible architecture, sculptures, and stories of the bygone era. With an array of structures and ruins, rugged landscape, and river Tungabhadra running in the background offering great photo ops, Hampi tops the list of historical monuments in Karnataka.                </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Hampi" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="tmple.jpeg" style="height: 20rem;width: 30rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2. Chennakeshavasvami Temple</center>  
+                </div>
+                <div class="ptext">
+                  <code>  The 12th-century Chennakesava Swamy Temple in Hassan is worthy of our list of the best historical sites in Karnataka.</code> Dedicated to Lord Vishnu, the temple was built during the Hoysala Empire rule and has been mentioned in medieval Hindu texts, remaining an important pilgrimage site in Vaishnavism.                    to know more click <a href="https://en.wikipedia.org/wiki/Shaniwar_Wada" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="pfort.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Pratap Fort</center>  
+                </div>
+                <div class="ptext">
+                    A masterpiece of Indian architecture, <code> the Adalaj ni vav, a stepwell with five storeys, was constructed in the 15th century.</code> This stepwell impresses visitors with its Islamic architecture and the carvings of Hindu deities on the pillars and walls.                    
+                    <br>
+
+                    to know more click <a href="https://en.wikipedia.org/wiki/Jantar_Mantar" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="4" style="flex-direction: row-reverse ;" >
+            <div class="pics">
+                <img src="statue.jpeg" style="height: 20rem; width: 30rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 4. Statue of Gomateshwara</center>  
+                </div>
+                <div class="ptext">
+                    Awe-inspiring history of <code> Karnataka brings us our next popular attraction, the 57-feet statue of Gomateshwara, also known as Bahubali.</code> Known among the must see historical monuments in Karnataka, the massive statue is one of the largest free-standing statues in the world. Even more inspiring is, the one in 12 years’ ritual where the lord is bathed in milk, saffron, turmeric and other holy things.               
+                 </div>
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 34rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+        .map{
+            margin-right:10px ;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Maharashtra </h1>
+    <div class="info">
+        <div class="map" ><img src="mhstra.jpeg" style="height : 21rem;"></div>
+        <div class="state">
+            <code> Maharashtra is a state of historic and magnificent monuments including Gateway of India,Chhatrapati Shivaji Terminus,Shaniwar Wada,Agakhan Palace and Deekshabhoomi.</code> The most popular historical monuments of Maharashtra also include Ambernath Shivalaya Temple,Ajanta Ellora Caves,Bibi-Ka-Maqbara,Raigad Fort and Sindhudurg Sea Fort.
+         </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Maharashtra</h2>
+        <ul class="list">
+            <li><a href="#1">Ajanta Ellora Caves,</a></li>
+            <li><a href="#2">Shaniwar Wada</a></li>
+            <li><a href="#3">Pratap Fort</a></li>
+            <li><a href="#4">Wai Ghat and Temples</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="aellora.jpeg" style="height: 20rem; width: 27rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1.Ajanta Ellora Caves, </center>  
+                </div>
+                <div class="ptext">
+                    <code> The Ellora Ajanta Caves the major tourist attraction of the Marathwada region of Maharashtra </code>and a World Heritage Site. The majority of the caves are known for the paintings contains some of the best preserved of ancient Indian paintings.
+                </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Rani_ki_vav" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="shanivar.jpeg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Shaniwar Wada</center>  
+                </div>
+                <div class="ptext">
+                    <code> Shaniwar Wada Palace of Pune is an 18th-century fortification in the city and was the seat of the Peshwa rulers of the Maratha Empire.</code> The complex had an impressive lotus-shaped fountain and the surviving structures are now maintained as a tourist site, It is also listed as one of the top 15 most spookiest and haunted places in India.                    
+                    to know more click <a href="https://en.wikipedia.org/wiki/Shaniwar_Wada" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="pfort.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Pratap Fort</center>  
+                </div>
+                <div class="ptext">
+                    A masterpiece of Indian architecture, <code> the Adalaj ni vav, a stepwell with five storeys, was constructed in the 15th century.</code> This stepwell impresses visitors with its Islamic architecture and the carvings of Hindu deities on the pillars and walls.                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Jantar_Mantar" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="4" style="flex-direction: row-reverse ;" >
+            <div class="pics">
+                <img src="waighat.jpeg" style="height: 20rem; width: 30rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 4.Wai Ghat and Temples </center>  
+                </div>
+                <div class="ptext">
+                    Located in Saragwala region, <code> Lothal is one of the most popular historical sites in Gujarat and dates back to the Indus Valley Civilization. </code> You’ll find the ancient ruins of that period, which include a burial ground, semi-precious stones, residential complexes and a dockyard, certainly worthy of a visit. There is also an archaeological museum brimming with artefacts, including terracotta ornaments, painted pottery, beads, bronze, copper and shell objects, and human and animal figurines                    to know more click <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 37rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+        @media screen and (min-width:49rem) {
+            h1{
+                /* background-color: red; */
+                width: 20em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Jammu And Kashmir </h1>
+    <div class="info">
+        <div class="map" style="margin-right:10px ;"><img src="jk.jpeg" alt=""></div>
+        <div class="state">
+            <code> Jammu and Kashmir</code> is a region administered by India as a union territory and consisting of the southern portion of the larger Kashmir region, which has been the subject of a dispute between India and Pakistan since 1947, and between India and China since 1962. The Line of Control separates Jammu and Kashmir from the Pakistani-administered territories of Azad Kashmir and Gilgit-Baltistan. </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Jammu and Kashmir</h2>
+        <ul class="list">
+            <li><a href="#1">Amar Mahal Palace</a></li>
+            <li><a href="#2">Bahu Fort</a></li>
+            <li><a href="#3">Akhnoor Fort</a></li>
+            <li><a href="#4">Ambaran</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="amarmahalplace.jpeg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1.Amar Mahal Place </center>  
+                </div>
+                <div class="ptext">
+                    The <code> Amar Mahal Palace</code> is a palace in Jammu, in the <code>Indian erstwhile Kingdom of Jammu and Kashmir, India. </code>The palace has now been converted into a museum. Commissioned by Maharaja Amar Singh, a Dogra king, the palace was built in the nineteenth century by a French architect on the lines of a French Chateau. The palace was donated to the Hari-Tara Charitable Trust by Karan Singh for use as a museum. It has many exhibits including a golden throne weighing 120kg, a Pahari miniature.
+                </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Amar_Mahal_Palace" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="bahufort.jpeg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Bahu Fort </center>  
+                </div>
+                <div class="ptext">
+                    The <code> ancient Bahu Fort</code> in Jammu is believed to be <code>originally built by Raja Bahu Lochan about 3,000 years ago </code>. It was refurbished by the Dogra rulers in the 19th century. The fort is a religious place and within its precincts is a temple dedicated to the Hindu goddess Kali, the presiding deity of Jammu. The temple is known locally as the “Bawey Wali Mata temple”. Just beneath the fort is the terraced Bagh-e-Bahu Garden laid in the style of Mughal gardens which affords panoramic view of the Jammu city and underground fish aquarium.                </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Bahu_Fort" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="ankhoorfort.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Ankhoor Fort </center>  
+                </div>
+                <div class="ptext">
+                    The Fort was built during the early 19th century and commands a towering view along the right bank of the Chenab.  <code>The present fort was probably started in 1762 AD at the behest of Raja Tegh Singh,</code> as an autonomous principle state. A devastating famine is said to have broken in the country during this time. In order to provide work to his famishing people Raj Tegh Singh started the construction of Akhnoor Fort and Palace on banks of the Chenab River.                 </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Akhnoor_Fort" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="4" style="flex-direction: row-reverse ;" >
+            <div class="pics">
+                <img src="ambaran.png" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 4.Ambaran </center>  
+                </div>
+                <div class="ptext">
+                   <code> Ambaran ,also locally known as Pambaran </code>, is a village of Akhnoor tehsil in Jammu district and is said to have been founded by Amba Jagdev Pawar . A scion of Pawar dynasty of Dhar Ujjain which seems to have been the original capital of Akhnoor. It was named Ambari after the family diety Amba, one of the names of goddess Durga. The name got changed gradually into Ambaran. Ambaran is the eighth place in the world, where relics of Buddha have been found in a stupa.                <div class="more">
+                    <br>
+                    to know more click <a href="http://jammutourism.gov.in/MonumentHeritage-Ambaran.html" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

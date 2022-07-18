@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 37rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kerala </h1>
+    <div class="info">
+        <div class="map" style="margin-right:10px ;"><img src="karmap.png" alt=""style="height: 20rem;width:25rem;"></div>
+        <div class="state">
+            Kerala is a state on the Malabar Coast of India. It was formed on 1 November 1956, following the passage of the States Reorganisation Act, by combining Malayalam-speaking regions of the erstwhile regions of Cochin, Malabar, South Canara, and Travancore.Spread over 38,863 km2 (15,005 sq mi), Kerala is the 21st largest Indian state by area.
+        </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Kerala</h2>
+        <ul class="list">
+            <li><a href="#1">Edakkal Caves</a></li>
+            <li><a href="#2">Thrikkakudi Rock-Cut Temple</a></li>
+            <li><a href="#3">Poonjar Palace</a></li>
+            <li><a href="#4">Ambaran</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="caves.webp" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1. Edakkal Caves </center>  
+                </div>
+                <div class="ptext">
+                    The first name on the list of the most exquisite. <code> historic places in Kerala has to be Edakkal caves! These naturally occurring alcoves have been attracting tourists since 1890 </code>when they were first discovered. The prehistoric rock and wall carvings, and mesmerising views of the surrounding hills, sounds like a perfect getaway.                 </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Edakkal_caves" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="rocktemple.webp" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Thrikkakudi Rock-Cut Temple</center>  
+                </div>
+                <div class="ptext">
+                    <code>Brace yourself for a unique historical and divine experience at the historic Thrikkakudi Rock-cut temple. The temple houses a three-feet long Shivalinga. </code> Many devotees from different parts of the country come here to offer prayings. The age-old structure combined with exceptional ancient engineering has made this site one of the top 10 historic monuments in Kerala.                
+                    <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Bahu_Fort" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="punjar.webp" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Poonjar Palace</center>  
+                </div>
+                <div class="ptext">
+                    Take a step into the <code> royalty of the bygone days by visiting Poonjar Palace, one of the historical buildings in Kerala. </code> We are not kidding when we say that this alluring palace, constructed from wood, is a testament to Kerala’s traditional architecture.                
+                     <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Akhnoor_Fort" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="4" style="flex-direction: row-reverse ;" >
+            <div class="pics">
+                <img src="ambaran.png" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 4.Ambaran </center>  
+                </div>
+                <div class="ptext">
+                   <code> Ambaran ,also locally known as Pambaran </code>, is a village of Akhnoor tehsil in Jammu district and is said to have been founded by Amba Jagdev Pawar . A scion of Pawar dynasty of Dhar Ujjain which seems to have been the original capital of Akhnoor. It was named Ambari after the family diety Amba, one of the names of goddess Durga. The name got changed gradually into Ambaran. Ambaran is the eighth place in the world, where relics of Buddha have been found in a stupa.                <div class="more">
+                    <br>
+                    to know more click <a href="http://jammutourism.gov.in/MonumentHeritage-Ambaran.html" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

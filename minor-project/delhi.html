@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 37rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+        @media screen and (min-width:49rem) {
+            h1{
+                /* background-color: red; */
+                width: 20em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Delhi </h1>
+    <div class="info">
+        <div class="map" style="margin-right:10px ;"><img src="dmap.jpeg" alt=""style="height: 20rem;width:25rem;"></div>
+        <div class="state">
+            Delhi officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India.[18][19] Straddling the Yamuna river, primarily its western or right bank, Delhi shares borders with the state of Uttar Pradesh in the east and with the state of Haryana in the remaining directions. The NCT covers an area of 1,484 square kilometres (573 sq mi).        </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Delhi</h2>
+        <ul class="list">
+            <li><a href="#1">Red Fort</a></li>
+            <li><a href="#2">Agrasen Ki Baoli</a></li>
+            <li><a href="#3">Rashtrapati Bhavan</a></li>
+            <li><a href="#4">Iron Pillar </a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="red.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1. Red Fort </center>  
+                </div>
+                <div class="ptext">
+                    
+                    Also known as Lal Qila, Red Fort was brought to life by Shah Jahan, the fifth Mughal emperor, in 1639.<code> Since then, it had been the regal residence of numerous Mughal emperors who enjoyed a royal stay in this magnificent fortress-palace during their reign in Delhi. </code> The fort derives its name from the red sandstone used in building its fortified walls.                 </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="baoli.jpeg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Agrasen Ki Baoli    </center>  
+                </div>
+                <div class="ptext">
+                    If you have never visited a stepwell, a common sight in many Indian forts, you will surely be awestruck by Agrasen Ki Baoli, a historical step well with a length and width of 60 meters and 15 meters,<code> respectively. Historical records regarding its origins are scanty, but it is believed that the well was built by Maharaja Agrasen and rebuilt in the 14th century. </code>                    <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Agrasen_Ki_Baoli" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="rash.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Rashtrapati Bhavan</center>  
+                </div>
+                <div class="ptext">
+                   <code> Visiting the Rashtrapati Bhavan is the dream of every Indian citizen who wishes to take a tour of the massive Presidential Estate, </code>the elegant Mughal gardens, and the newly inaugurated museum that deftly depicts the history of this building. Built during the period 1912 to 1929, this 340-room building once served as the British Viceroy’s House and was first occupied by Lord Irwin during the British Raj                     <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Rashtrapati_Bhavan" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="4" style="flex-direction: row-reverse ;" >
+            <div class="pics">
+                <img src="pill.jpeg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 4.Iron Pillar </center>  
+                </div>
+                <div class="ptext">
+                    Iron Pillar is one of the many mysterious monuments of wonder present in Delhi- the capital of India. Located within the Qutub Minar complex in Mehrauli area of New Delhi, the Iron Pillar has been posing as one of the foremost metallurgical curiosities of the world due to its prowess to not exhibit a speck of rust despite being thousands of years old.<code> Made with 98% wrought iron and withstanding over 1600 years of withering </code>
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

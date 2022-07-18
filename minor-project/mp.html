@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 37rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+        @media screen and (min-width:49rem) {
+            h1{
+                /* background-color: red; */
+                width: 20em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Madhya Pradesh </h1>
+    <div class="info">
+        <div class="map" style="margin-right:10px ;"><img src="mpmap.jpeg" alt=""style="height: 20rem;width:25rem;"></div>
+        <div class="state">
+            Madhya Pradesh is a state in central India. Its capital is Bhopal, and the largest city is Indore, with Jabalpur, Ujjain, Gwalior, Satna, and Guna being the other major cities. Madhya Pradesh is the second largest Indian state by area and the fifth largest state by population with over 72 million residents.         </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Madhya Pradesh</h2>
+        <ul class="list">
+            <li><a href="#1">The Great Stupa of Sanchi</a></li>
+            <li><a href="#2"> The Khajuraho Group of Temples </a></li>
+            <li><a href="#3">Gwalior Fort</a></li>
+            <li><a href="#4">Omkareshwar Temple</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="stu.jpg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1. The Great Stupa of Sanchi </center>  
+                </div>
+                <div class="ptext">
+                    
+                  <code>  Sanchi Stupa enjoys extraordinary fame as far as historical places in Madhya Pradesh are concerned.</code> Calling this site ‘historical’ would be an understatement as its construction dates back to as far as the 2nd and 1st century BC.
+
+                </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Sanchi" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="khuj.jpg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.The Khajuraho Group of Temples   </center>  
+                </div>
+                <div class="ptext">
+                    Probably the most famous historical temples in the entirety of India, The Khajuraho Complex of Temples is a site you should not miss on your visit to Madhya Pradesh regardless of your area of interest.The complex encompasses numerous Hindu, Jain, and Buddhist temples which enjoy an unparalleled fame owing to their erotic carvings and sculptures. Khajuraho group of temples is a prominent
+                                         <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Khajuraho" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="gfort.jpg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Gwalior Fort</center>  
+                </div>
+                <div class="ptext">
+                    If you find hill forts fascinating, Gwalior Fort will give the history buff in you every reason to fall in love with this structure sitting atop a hill in Gwalior. The inscriptions, the monuments, and the architecture of the fort – each boasts an unprecedented diligence and charm.A visit to the fort will take you back in time when this culturally rich city was ruled by Tomars.                    
+                     <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Akhnoor_Fort" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="4" style="flex-direction: row-reverse ;" >
+            <div class="pics">
+                <img src="om.webp" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 4.Omkareshwar Temple </center>  
+                </div>
+                <div class="ptext">
+                    One of the most prominent historical places in Madhya Pradesh, Omkareshwar Temple finds its name on the bucket list of a lot of culture vultures in India.The temple is dedicated to Lord Shiva and is located on an island called Shivapuri in the river Narmada that resembles the shape of the OM symbol. It is one of the most revered religious sites for the followers of Hinduism as it is one of the 12 Jyotirlinga shrines of Shiva.
+                    
+
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Omkareshwar_Temple" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
+
+    <title>HMI</title>
+    <style>
+        body{
+            width: 98vw;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            min-width: 35vw;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            /* overflow: hidden; */
+        }
+        .header{
+            background-color: rgb(63, 63, 63);
+            min-width: 35vw;
+            width: 100vw;
+            height: 10vh;
+            overflow: hidden;
+            position: fixed;
+            top: 0vh;
+            display: flex;
+            z-index: 1;
+
+       }
+        .main{
+            width: 100vw;
+            height: 85vh;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            top: 10vh;
+        }
+
+        .footer{
+            background-color: rgb(63, 63, 63);
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: right;
+            font-size: 14px;
+            font-family: 'Arima', cursive;
+            width: 100vw;
+            height: 5vh;
+            overflow: hidden;
+            position: fixed;
+            top: 95vh;
+        }
+        .cmn{
+            height: 85vh;
+            width: 50vw;
+        }
+        .map{
+            display: flex;
+            background-color: rgb(0, 0, 0);
+        }
+        .content{
+            background-color: #bcbcbc;
+            font-size: 20vh;
+        }
+        .frms{
+            height: 84vh;
+            width: 50vw;
+        }
+        .flag {
+            width: 30vw;
+        }
+        .search{
+           width:45vw ; 
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           align-items: center;
+            font-size: 32px;
+            color: white;
+        }
+        .random{
+            width: 25vw;
+        }
+        .ipt{
+            height: 5vh;
+            width: 15rem;
+            font-size: 20px;
+            font-family: 'Arima', cursive;
+        }
+        .btn{
+            height: 5vh;
+            width: 5rem;
+        }
+        .btn:hover{
+            cursor:pointer;
+        }
+        label{
+            color: white;
+        }
+        .random{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            color: white;
+        }
+        input:focus {
+        outline: none !important;
+        }
+        @media screen and (max-width:79rem) {
+            .main{
+                flex-direction: column;
+                width: 100vw;
+                height: 200vh;
+            }
+            .content{
+                background-color: #bcbcbc;
+                width: 100vw;
+                height: 110vh;
+            }
+            .map{
+                background: black;
+                width: 100vw;
+                height: 90vh;
+                display: flex;
+                justify-content: center;
+            }
+            .frms{
+                width: 100vw;
+                height: 110vh;
+            }
+        }
+
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="flag">
+                <img src="indiaflag.png" style="height: 9vh;margin-left: 1em;margin-top: 0.5vh;">
+                
+            </div>
+            <div class="random">Proud To Be Indian </div>
+            <div class="search">
+                <!-- <div class="here">
+                <label for="ipt">Search here:</label>
+                <input type="text" class="ipt">
+            </div>
+                <button type="submit" class="btn btn-primary">Go</button> -->
+                Bharat Mata Ki Jay...
+            </div>
+        </div>
+        <div class="main"> 
+            <div class="map cmn">
+<img src="indianmaps (1).jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="cmd" alt="Tamil Nadu" title="Tamil Nadu" href="tamil.html" coords="271,494,288,495,301,490,312,483,319,492,311,509,311,521,311,532,309,540,301,544,296,554,289,564,281,569,274,577,257,580,259,564,260,540,253,544,252,529,248,520,250,514" shape="poly">
+    <area target="cmd" alt="" title="main page" href="base.html" coords="95,632,609,635,620,15,89,2,103,258,118,254,131,240,127,216,114,192,164,175,182,147,210,100,189,69,190,48,168,24,196,4,233,4,273,20,314,33,316,73,311,104,332,137,324,171,380,188,442,207,456,168,503,199,603,145,597,235,566,310,481,325,386,396,327,501,277,588,192,550,203,511,177,443,127,384,103,315,102,299" shape="poly">
+    <area target="cmd" alt="Jammu and Kashmir " title="Jammu and Kashmir " href="jk.html"  coords="206,47,205,30,196,25,190,17,221,5,253,20,267,31,312,26,313,46,288,63,288,84,296,88,280,95,251,91,228,94,201,83,196,66" shape="poly"></iframe>
+    <area target="cmd" alt="Rajasthan" title="Rajasthan" href="rjsthan.html" coords="204,147,174,179,155,194,127,198,136,217,143,238,157,256,191,267,199,282,214,259,234,257,246,240,265,221,261,196,237,185,225,158" shape="poly">
+    <area target="cmd" alt="Gujrat" title="Gujrat" href="gjrat.html" coords="142,262,103,266,108,289,136,289,117,300,126,311,142,321,154,322,170,301,179,320,202,313,201,288,181,270" shape="poly">
+    <area target="cmd" alt="Maharashtra" title="Maharashtra" href="mhshtra.html" coords="202,316,235,326,259,323,300,326,318,348,308,362,277,355,256,378,239,400,207,411,190,433,183,380,190,334,182,328" shape="poly">
+    <area target="cmd" alt="Karnataka" title="Karnataka" href="karnataka.html" coords="256,389,225,411,202,439,208,467,225,496,248,509,265,498,279,479,252,456,251,433" shape="poly">
+    <area target="cmd" alt="Kerala" title="Kerala" href="kr.html" coords="250,581,227,512,250,559,240,574,236,543" shape="poly">
+    <area target="cmd" alt="Kerala" title="Kerala" href="kr.html" coords="216,495,225,503,235,509,247,515,248,523,252,532,256,536,259,548,258,559,257,570,250,574" shape="poly">
+    <area target="cmd" alt="Tamil Nadu " title="Tamil Nadu " href="tamil.html" coords="317,479,282,487,273,504,251,529,259,553,264,577,287,559,298,533,310,512" shape="poly">
+    <area target="cmd" alt="Andhra Pradesh" title="Andhra Pradesh" href="ap.html" coords="388,368,336,396,278,428,258,450,276,473,297,476,311,436,334,425,353,414,372,395" shape="poly">
+    <area target="cmd" alt="Uttar pradesh " title="Uttar pradesh " href="up.html" coords="269,154,282,164,319,179,359,198,380,212,382,239,368,254,344,245,314,246,296,232,286,213,269,197,268,178" shape="poly">
+    <area target="cmd" alt="Madhya Pradesh" title="Madhya Pradesh" href="mp.html" coords="275,222,282,248,288,265,293,253,323,247,353,259,365,269,340,274,342,286,345,298,327,314,297,320,276,320,261,317,248,320,223,317,204,300,213,278,220,255,230,269,258,267,256,255,253,239" shape="poly">
+    <area target="cmd" alt="West Bengal" title="West Bengal" href="west.html" coords="466,239,449,278,436,290,449,310,465,306,476,293,474,270" shape="poly">
+    <area target="cmd" alt="Odisha" title="Odisha" href="odisha.html" coords="414,307,442,312,435,337,425,353,400,365,370,369,353,384,353,356,358,336,380,312,390,306" shape="poly">
+    <area target="cmd" alt="Bihar" title="Bihar" href="bihar.html" coords="433,223,460,225,444,247,429,259,398,263,373,250,389,238,400,235,389,225,389,209" shape="poly">
+    <area target="cmd" alt="Jharkhand" title="Jharkhand" href="jhrkhnd.html" coords="423,269,456,245,428,279,425,306,400,299,385,263,407,267" shape="poly">
+    <area target="cmd" alt="Assam" title="Assam" href="assam.html" coords="510,215,540,208,567,195,601,186,590,204,569,225,554,248,543,262,541,230,516,226" shape="poly">
+    <area target="cmd" alt="Delhi" title="Delhi" href="delhi.html" coords="274,171,251,188" shape="rect">
+    <area target="cmd" alt="odisha" title="odisha" href="odisha.html" coords="368,382,418,364,431,343,432,302,395,308,355,318,346,349,348,367,354,375,359,379" shape="poly">
+    <area target="cmd" alt="assam" title="assam" href="assam.html" coords="519,212,551,200,583,180,598,187,587,210,567,234,558,253,548,266,534,270,518,234,496,232" shape="poly">
+</map>
+            </div>
+            <div class="content cmn" >
+                <iframe name="cmd" frameborder="0" class="frms" src="base.html"></iframe>
+            </div>
+        </div>
+        <div class="footer">
+          <div class="names" style="padding-right:30px ; font-size:20px">designed and developed by Manas Goyal.</div>  
+        </div>
+    </div>
+<!-- <script src="mainmap.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 34rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+        .map{
+            margin-right:10px ;
+            
+        }
+        @media screen and (min-width:49rem) {
+            h1{
+                /* background-color: red; */
+                width: 20em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Assam </h1>
+    <div class="info">
+        <div class="map" ><img src="asm.jpeg" style="height : 21rem;"></div>
+        <div class="state">
+            Assam (/əˈsæm, æ-/;[10][11] Assamese: [ˈɔxɔm] (listen)) is a state in northeastern India, south of the eastern Himalayas along the Brahmaputra and Barak River valleys. Assam covers an area of 78,438 km2 (30,285 sq mi). The state is bordered by Bhutan and Arunachal Pradesh to the north; Nagaland and Manipur to the east; Meghalaya, Tripura, Mizoram and Bangladesh to the south.
+        </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Assam</h2>
+        <ul class="list">
+            <li><a href="#1">Rang Ghar</a></li>
+            <li><a href="#2">Talatal Ghar</a></li>
+            <li><a href="#3">Surya Pahar</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="rngghr.jpeg" style="height: 20rem; width: 27rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1.Rang Ghar</center>  
+                </div>
+                <div class="ptext">
+                    Rang Ghar is often regarded as the ‘Colosseum of the East’. Being one of the oldest surviving amphitheaters in Asia, Rang Ghar is one of the best Sivasagar historical sites in Assam. Rang Ghar meaning the ‘House of Entertainment’ was<code> originally a two-storied building. It was used as a royal sports pavilion, especially during the Rongali Bihu Festival. </code>
+                </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Rang_Ghar" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="talatal.jpeg" style="height: 20rem;width: 30rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Talatal Ghar</center>  
+                </div>
+                <div class="ptext">
+                   <code> Add Talatal Ghar to your list of top 10 historical monuments in Assam. Also called Kareng Ghar,</code> this monument is a testament to Assamese culture. And the fact that it is the largest building among all Ahom monuments in the world, makes it worth a visit. If you are a history buff or an architecture lover, visit Talatal Ghar in Rangpur.
+
+                    to know more click <a href="https://en.wikipedia.org/wiki/Barabar_Caves" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="surya.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Surya Pahar</center>  
+                </div>
+                <div class="ptext">
+                    Owing to many archaeological discoveries, Surya Pahar in Assam is also referred to as an Archaeologist’s Gold Mine. Located 12 km from the Goalpara district, Surya Pahar is one of the lesser-known historical places in Assam that you must visit.As per the name, Surya Pahar which means Hill of the Sun, it is said that this place was connected with the cult of sun worship. What do you think? Also,  the things found at this site have been put on display at a local museum.
+                    <br>
+                    
+                    
+                    
+                    to know more click <a href="https://en.wikipedia.org/wiki/Sri_Surya_Pahar" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

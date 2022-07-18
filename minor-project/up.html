@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 37rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uttar Pradesh  </h1>
+    <div class="info">
+        <div class="map" style="margin-right:10px ;"><img src="uttar.jpeg" alt=""style="height: 20rem;width:25rem;"></div>
+        <div class="state">
+            Uttar Prades is a state in northern India. With over 200 million inhabitants, it is the most populated state in India as well as the most populous country subdivision in the world.[13]  It was a successor to the United Provinces (UP) during the period of the Dominion of India (1947–1950), which in turn was a successor to the United Provinces (UP) established in 1935        </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Uttar Pradesh</h2>
+        <ul class="list">
+            <li><a href="#1">Varanasi Ghats</a></li>
+            <li><a href="#2"> Sarnath Stupa </a></li>
+            <li><a href="#3">Deogarh monuments</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="ghts.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1. Varanasi Ghats </center>  
+                </div>
+                <div class="ptext">
+                    Ghats in Varanasi are considered as one of the holiest places in Varanasi, on the banks of the Ganges. There are 87 ghats in Varanasi, most of them are bathing and puja ceremony ghats and few are cremation sites.
+                 </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Varanasi" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="sarnath.jpeg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Sarnath Stupa   </center>  
+                </div>
+                <div class="ptext">
+                    Sarnath city is located near Varanasi and an important pilgrimage site for Buddhists.<code> Most famous ancient buildings and structures at Sarnath are Dhamek Stupa,Ashoka Pillar and Mulagandhakuti Vihara. </code>                    <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Sarnath" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="dep.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Deogarh monuments</center>  
+                </div>
+                <div class="ptext">
+                    Deogarh village is located on the right bank of Betwa River and known for many ancient monuments from Gupta Empire.<code> The Deogarh monuments are protected by the Archaeological Survey of India, such as Shantinath Temple,Dashavatara temple Deogarh fort and Varaha temple. </code>                     <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Deogarh,_Uttar_Pradesh" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

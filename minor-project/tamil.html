@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 37rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tamil Nadu </h1>
+    <div class="info">
+        <div class="map" style="margin-right:10px ;"><img src="tmlmap.jpeg" alt=""style="height: 20rem;width:25rem;"></div>
+        <div class="state">
+            Tamil Nadu Its capital and largest city is Chennai. The state is the home of the Tamil people, whose Tamil language—one of the longest surviving classical languages in the world—is widely spoken in the state and serves as its official language.Lying in the southern-most part of the Indian peninsula, Tamil Nadu is bordered by the Indian union territory of Puducherry as well as an international maritime border with Sri Lanka. 
+            
+        </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Tamil Nadu</h2>
+        <ul class="list">
+            <li><a href="#1">Brihadeeswarar Temple</a></li>
+            <li><a href="#2">Meenakshi Amman Temple</a></li>
+            <li><a href="#3">Poonjar Palace</a></li>
+            <li><a href="#4">Rama Setu</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="btemple.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1. Brihadeeswarar Temple </center>  
+                </div>
+                <div class="ptext">
+                    The Brihadeshwara Temple is one of the most ancient temple, situated in the city of Thanjavur and one of the most famous temple in India.<code> The temple has the tallest temple tower in the world and It is one of the largest temples in India. </code>
+                 </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="mtemple.jpeg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Meenakshi Amman Temple     </center>  
+                </div>
+                <div class="ptext">
+                     <code> Meenakshi Amman Temple is a historic Hindu temple dedicated to Parvati and the most prominent landmark and most visited tourist attraction in the city of Madurai.</code> Meenakshi temple was on the list of top 30 nominees for the New Seven Wonders of the World.
+                    <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Meenakshi_Temple,_Madurai" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="punjar.webp" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Poonjar Palace</center>  
+                </div>
+                <div class="ptext">
+                    Take a step into the <code> royalty of the bygone days by visiting Poonjar Palace, one of the historical buildings in Kerala. </code> We are not kidding when we say that this alluring palace, constructed from wood, is a testament to Kerala’s traditional architecture.                
+                     <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Akhnoor_Fort" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="4" style="flex-direction: row-reverse ;" >
+            <div class="pics">
+                <img src="ramji.jpeg" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 4.Rama Setu </center>  
+                </div>
+                <div class="ptext">
+               <code>     Rama Setu is a national monument and the symbol of national unity,is a stretch of limestone shoals between Rameswaram Island.</code> As per Geological survey it a land bridge connection between India and Sri Lanka.
+
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Adam%27s_Bridge" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

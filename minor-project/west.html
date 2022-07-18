@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 34rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+        .map{
+            margin-right:10px ;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>West Bengal</h1>
+    <div class="info">
+        <div class="map" ><img src="bnglw.jpeg" style="height : 21rem;"></div>
+        <div class="state">
+            West Bengal (/bɛŋˈɡɔːl/, Bengali: Poshchim Bongo, pronounced [ˈpoʃtʃim ˈbɔŋɡo] (listen), abbr. WB) is a state in the eastern region of India along the Bay of Bengal. With over 91 million inhabitants, it is the fourth-most populous state and the thirteenth-largest state by area in India. Covering an area of 88,752 km2 (34,267 sq mi), it is also the eighth-most populous country subdivision of the world.
+        </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in West Bengal</h2>
+        <ul class="list">
+            <li><a href="#1">Rasmancha</a></li>
+            <li><a href="#2">Dholavira</a></li>
+            <li><a href="#3">Victoria Memorial</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="rmchara.jpeg" style="height: 20rem; width: 27rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1.Rasmancha</center>  
+                </div>
+                <div class="ptext">
+                    Constructed in 1600, <code> Rasmancha is an extremely beautiful piece of an architectural masterpiece in West Bengal.</code> This site is located in Bishnupur that is situated in the Bankura district of the state. When you go there, you will see the resemblance of a pyramid to the monument quite easily. Created by using laterite stones, and burnt bricks, Rasmancha is genuinely picturesque.                 </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Rani_ki_vav" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="dholavira.webp" style="height: 20rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Dholavira</center>  
+                </div>
+                <div class="ptext">
+                    A real treat for historians, <code> Dholavira is one of Gujarat’s best-kept archaeological and historical sites dating back to the Indus Valley Civilization.</code> It is full of historic treasures, including seals with animal figures, funerary structures, letters of the Indus script, stone sculptures, pottery with painted motifs, terracotta ornaments, sign boards, and several other structures and objects.                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Dholavira" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="VMEMO.jpeg" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Victoria Memorial</center>  
+                </div>
+                <div class="ptext">
+                    One of the most notable sites of Kolkata, Victoria Memorial is a must-see monument in Kolkata. Constructed in the year 1921, this building was dedicated to Queen Victoria of England. It was commissioned by the then Viceroy of India, Lord Curzon. The architecture of Victoria Memorial was handled by architect William Emerson, the member of the Royal Institute of British Architects. I
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Jantar_Mantar" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>

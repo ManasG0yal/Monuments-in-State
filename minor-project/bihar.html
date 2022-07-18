@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            /* margin: 0; */
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin-left: 1rem;
+            background-color: #eeeeee;
+        }
+        H1{
+            /* margin-top: -0.5vh; */
+            margin-left: .5vw;
+            margin-bottom: 5vw;
+            background: rgb(200, 255, 0);
+            height:20vh;
+            width: 69rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            font-family: 'Acme', sans-serif;
+            min-height: 0;
+            overflow: hidden;
+        }
+        .info{
+            display: flex;
+            height: 21rem ;
+        }
+        .state{
+            font-size: 18px;
+        }
+        code{
+            background-color: rgb(249, 249, 139);
+        }
+        h2{
+          color: rgb(37, 36, 36);
+          font-family: 'Edu NSW ACT Foundation', cursive;
+        }
+        .list{
+            list-style: none;
+            display: flex;
+        }
+        li{
+            list-style:none;
+            margin: 20px;
+            font-size: 18px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        li a:hover{
+            text-decoration: none;
+            color: rgb(6, 4, 72);
+        }
+        section{
+            height: 37rem;
+            width: 68rem;
+            display: flex;
+            min-height: 0;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        .maincontent ,.places{
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+        .places{
+            overflow: hidden;
+        }
+        .ptext{
+            width: 34rem;
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+        }
+        .pics {
+            padding: 2rem;
+        }
+        .heading{
+            font-size: 2.5rem;
+        }
+        .heading:hover{
+            color: darkblue;
+            text-decoration: underline;
+        }
+        .nm{
+            
+            flex-direction: row-reverse;
+        }
+        .map{
+            margin-right:10px ;
+            
+        }
+        @media screen and (min-width:49rem) {
+            h1{
+                /* background-color: red; */
+                width: 20em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Bihar </h1>
+    <div class="info">
+        <div class="map" ><img src="bhar.jpeg" style="height : 21rem;"></div>
+        <div class="state">
+            Bihar is a state in eastern India. It is the third-largest state by population and twelfth-largest by territory, with an area of 94,163 km2 (36,357 sq mi). Bihar borders Uttar Pradesh to its west, Nepal to the north, the northern part of West Bengal to the east, and with Jharkhand to the south. The Bihar plain is split by the river Ganges, 
+        </div>
+    </div>
+    
+    <div class="maincontent">
+        <h2>Famous Heritage Places in Bihar</h2>
+        <ul class="list">
+            <li><a href="#1">Nalanda Mahavihara</a></li>
+            <li><a href="#2"> Barabar Caves</a></li>
+            <li><a href="#3">Kumhrar</a></li>
+        </ul>
+    </div>
+   
+   <div class="places">
+        <section id="1">
+            <div class="pics">
+                <img src="nalanda.webp" style="height: 20rem; width: 27rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 1.Nalanda Mahavihara </center>  
+                </div>
+                <div class="ptext">
+                    Dating back to the 5th century CE, the Nalanda Mahavihara served as the top scholastic institution of Buddhist learning for a period of 800 years. The university flourished under the patronage of the Gupta dynasty and Emperor Harshavardhan and started to decline in the 9th century when the Pala dynasty established 4 other institutions of Buddhist education. 
+                </div>
+                <div class="more">
+                    <br>
+                    to know more click <a href="https://en.wikipedia.org/wiki/Nalanda" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+        <section id="2" style="flex-direction: row-reverse ;">
+            <div class="pics">
+                <img src="barabar.jpg" style="height: 20rem;width: 30rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 2.Barabar Caves</center>  
+                </div>
+                <div class="ptext">
+                    Counted among the most-visited historical places in Bihar, the Barabar Caves happen to be one of the country’s most ancient rock-cut caves that have successfully survived the test of time. Carved out of granite, these caves have their name in the Hindu epic of Mahabharata. 
+                                      to know more click <a href="https://en.wikipedia.org/wiki/Barabar_Caves" target="_blank">here</a>
+                </div>
+            </div>
+        </section>
+        <section id="3">
+            <div class="pics">
+                <img src="kumhrar.webp" style="height: 20rem; width: 25rem;">
+            </div>
+            <div class="desc">
+                <div class="heading">
+                  <center> 3.Kumhrar</center>  
+                </div>
+                <div class="ptext">
+                    One of the most fascinating historical places in Bihar, Kumhrar is a small town in the outskirts of Patna city, famous for housing the archaeological remnants of the ancient Pataliputra. A myriad of excavation operations have been performed here and many interesting ruins have been unearthed.<code> One of the most wonderful ruins is that of the 80-pillared sandstone hall, which dates back to 300 BC. </code>                    <br>
+
+                    to know more click <a href="https://en.wikipedia.org/wiki/Jantar_Mantar" target="_blank">here</a>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+</body>
+</html>
